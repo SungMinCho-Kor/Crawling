@@ -36,7 +36,9 @@ http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=335
 Parsing 하고자하는 곳에 검사를 눌러 Selector 복사를 이용하면 쉽게 Select 할 태그를 얻을 수 있다.
 <p align="center">
     <img width="831" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/0997ad20-abd3-4a3f-b9e9-9b46962dd2eb">
+    
     <img width="818" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/977aa4a7-1abf-4c3b-b234-b568b6fdbcd7">
+    
     <img width="445" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/7b474f75-6d99-4b1c-a0fa-d92030098ccd">
 </p>
 
