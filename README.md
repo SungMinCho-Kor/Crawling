@@ -30,9 +30,9 @@ Local Package 추가하기
 <img width="1146" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/8cc5cc52-3e9a-4e38-a6a9-f0c10b710d43">
 <img width="267" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/bfa9883f-2aa7-4425-853b-db45aa25fd09">
 프로젝트 Target과 Local Package 연결
-<img width="1072" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/f12c8042-3a83-4345-9cf9-3604ed380231">
-<img width="1072" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/b7fc77bb-3233-4223-a487-4271f7db1e0f">
-<img width="1072" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/9700e5f2-e373-4baf-99e4-a440387222e7">
+<img width="676" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/64f6fea1-b74b-41c8-85c4-5a475d811fc5">
+<img width="403" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/40228a62-2bd2-4c93-9570-d69fd51ec80b">
+<img width="684" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/7c8200d0-2761-43d7-ba6b-342df71ecf11">
 # 3. 기본적인 웹 크롤링
 
 재학중인 대학교 학사 공지사항 게시판을 크롤링

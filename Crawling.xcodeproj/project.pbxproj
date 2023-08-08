@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C00065732A829C8800A70DC4 /* newPackage in Frameworks */ = {isa = PBXBuildFile; productRef = C00065722A829C8800A70DC4 /* newPackage */; };
+		C00065752A829D5400A70DC4 /* newPackage in Frameworks */ = {isa = PBXBuildFile; productRef = C00065742A829D5400A70DC4 /* newPackage */; };
 		C027E4D12A821A5100FEBB16 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027E4D02A821A5100FEBB16 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00065732A829C8800A70DC4 /* newPackage in Frameworks */,
+				C00065752A829D5400A70DC4 /* newPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			);
 			name = Crawling;
 			packageProductDependencies = (
-				C00065722A829C8800A70DC4 /* newPackage */,
+				C00065742A829D5400A70DC4 /* newPackage */,
 			);
 			productName = Crawling;
 			productReference = C000655F2A8297D300A70DC4 /* Crawling */;
@@ -316,7 +316,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C00065722A829C8800A70DC4 /* newPackage */ = {
+		C00065742A829D5400A70DC4 /* newPackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = newPackage;
 		};
