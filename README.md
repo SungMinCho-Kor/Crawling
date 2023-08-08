@@ -7,8 +7,10 @@
 # 1. SPM 활용
 
 <p align="center">
+    Pacakge 추가
     <img width="472" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/a36a22d4-7369-4dea-92bd-b332e87214f2">
     <img width="1146" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/0718c608-fbc0-4b71-b1e5-02e2384036ee">
+    Package import
     <img width="697" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/18b36122-ca20-4e44-b122-a1f4edc4fc3a">
 </p>
 
@@ -31,8 +33,10 @@ http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=335
 
 2. Parsing
 <p align="center">
+    Parsing 하고자하는 곳에 검사를 누르면 Parsing 할 태그를 얻어낼 수 있다.
     <img width="831" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/0997ad20-abd3-4a3f-b9e9-9b46962dd2eb">
     <img width="818" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/977aa4a7-1abf-4c3b-b234-b568b6fdbcd7">
+    Selector 복사를 이용하여 쉽게 Select 할 태그를 얻을 수 있다.
     <img width="445" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/7b474f75-6d99-4b1c-a0fa-d92030098ccd">
 </p>
 
