@@ -8,9 +8,7 @@
 
 <p align="center">
     <img width="472" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/a36a22d4-7369-4dea-92bd-b332e87214f2">
-
     <img width="1146" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/0718c608-fbc0-4b71-b1e5-02e2384036ee">
-
     <img width="697" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/18b36122-ca20-4e44-b122-a1f4edc4fc3a">
 </p>
 
@@ -54,5 +52,6 @@ tr 모두를 가져오면 되므로 select에서 `tr`까지 작성
         try print(line.text())
     }
 ```
-<img width="660" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/c76b108d-ad12-4562-8d5e-12fd9ac3c31c">
-
+<p align="center">
+    <img width="660" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/c76b108d-ad12-4562-8d5e-12fd9ac3c31c">
+</p>
