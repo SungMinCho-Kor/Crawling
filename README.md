@@ -48,6 +48,7 @@ Local Package 추가하기
     <img width="403" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/40228a62-2bd2-4c93-9570-d69fd51ec80b">
     <img width="684" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/7c8200d0-2761-43d7-ba6b-342df71ecf11">
 </p>
+
 # 3. 기본적인 웹 크롤링
 
 재학중인 대학교 학사 공지사항 게시판을 크롤링
