@@ -8,6 +8,7 @@
 import Foundation
 import SwiftSoup
 
+
 enum Errors: LocalizedError{
     case urlError
     

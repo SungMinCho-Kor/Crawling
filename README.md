@@ -13,8 +13,26 @@ Pacakge 추가 및 import
     <img width="697" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/18b36122-ca20-4e44-b122-a1f4edc4fc3a">
 </p>
 
-# 2. Package를 포함하는 프로젝트
+# 2. Local SPM
+Local Package 생성
+<p align="center">
+    <img width="442" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/dfdfab8b-93a1-4aa4-a7db-fc6b686ddd59">
+</p>
 
+`Package.swift` 파일 수정
+<img width="630" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/62952ff5-4c94-4082-9efc-943307a197e2">
+`build` 해서 `SwiftSoup` 추가 확인
+<img width="733" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/a25fdca0-c648-46c9-9954-d37d5cfb1ede">
+Local Package 추가하기
+<img width="427" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/da20c535-6f08-423d-a232-a5379b6b8a36">
+<img width="1146" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/d91de930-8585-4b1d-872f-c0d51f3bba9e">
+`Add Local...` 버튼 클릭
+<img width="1146" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/8cc5cc52-3e9a-4e38-a6a9-f0c10b710d43">
+<img width="267" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/bfa9883f-2aa7-4425-853b-db45aa25fd09">
+프로젝트 Target과 Local Package 연결
+<img width="1072" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/f12c8042-3a83-4345-9cf9-3604ed380231">
+<img width="1072" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/b7fc77bb-3233-4223-a487-4271f7db1e0f">
+<img width="1072" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/9700e5f2-e373-4baf-99e4-a440387222e7">
 # 3. 기본적인 웹 크롤링
 
 재학중인 대학교 학사 공지사항 게시판을 크롤링

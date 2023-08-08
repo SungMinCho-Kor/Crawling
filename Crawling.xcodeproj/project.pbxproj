@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00065732A829C8800A70DC4 /* newPackage in Frameworks */ = {isa = PBXBuildFile; productRef = C00065722A829C8800A70DC4 /* newPackage */; };
 		C027E4D12A821A5100FEBB16 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027E4D02A821A5100FEBB16 /* main.swift */; };
-		C027E4DA2A82212E00FEBB16 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = C027E4D92A82212E00FEBB16 /* SwiftSoup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C027E4CD2A821A5100FEBB16 /* Crawling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Crawling; sourceTree = BUILT_PRODUCTS_DIR; };
+		C000655F2A8297D300A70DC4 /* Crawling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Crawling; path = /Users/chosungmin/Desktop/Study/SwiftPractice/Crawling/build/Debug/Crawling; sourceTree = "<absolute>"; };
+		C00065712A829C7F00A70DC4 /* newPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = newPackage; sourceTree = "<group>"; };
 		C027E4D02A821A5100FEBB16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C027E4D72A821AC900FEBB16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -34,27 +35,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C027E4DA2A82212E00FEBB16 /* SwiftSoup in Frameworks */,
+				C00065732A829C8800A70DC4 /* newPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C000656D2A829C6900A70DC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C00065702A829C7F00A70DC4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C00065712A829C7F00A70DC4 /* newPackage */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		C027E4C42A821A5100FEBB16 = {
 			isa = PBXGroup;
 			children = (
+				C00065702A829C7F00A70DC4 /* Packages */,
 				C027E4CF2A821A5100FEBB16 /* Crawling */,
-				C027E4CE2A821A5100FEBB16 /* Products */,
+				C000656D2A829C6900A70DC4 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		C027E4CE2A821A5100FEBB16 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C027E4CD2A821A5100FEBB16 /* Crawling */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C027E4CF2A821A5100FEBB16 /* Crawling */ = {
@@ -83,10 +92,10 @@
 			);
 			name = Crawling;
 			packageProductDependencies = (
-				C027E4D92A82212E00FEBB16 /* SwiftSoup */,
+				C00065722A829C8800A70DC4 /* newPackage */,
 			);
 			productName = Crawling;
-			productReference = C027E4CD2A821A5100FEBB16 /* Crawling */;
+			productReference = C000655F2A8297D300A70DC4 /* Crawling */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +125,7 @@
 			packageReferences = (
 				C027E4D82A82212E00FEBB16 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 			);
-			productRefGroup = C027E4CE2A821A5100FEBB16 /* Products */;
+			productRefGroup = C027E4C42A821A5100FEBB16;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -307,10 +316,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C027E4D92A82212E00FEBB16 /* SwiftSoup */ = {
+		C00065722A829C8800A70DC4 /* newPackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C027E4D82A82212E00FEBB16 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
-			productName = SwiftSoup;
+			productName = newPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
