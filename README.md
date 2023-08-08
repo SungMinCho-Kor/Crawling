@@ -6,12 +6,13 @@
 
 # 1. SPM 활용
 
-<img width="472" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/a36a22d4-7369-4dea-92bd-b332e87214f2">
+<p align="center">
+    <img width="472" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/a36a22d4-7369-4dea-92bd-b332e87214f2">
 
-<img width="1146" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/0718c608-fbc0-4b71-b1e5-02e2384036ee">
+    <img width="1146" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/0718c608-fbc0-4b71-b1e5-02e2384036ee">
 
-<img width="697" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/18b36122-ca20-4e44-b122-a1f4edc4fc3a">
-
+    <img width="697" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/18b36122-ca20-4e44-b122-a1f4edc4fc3a">
+</p>
 
 # 2. Package를 포함하는 프로젝트
 
@@ -20,7 +21,9 @@
 재학중인 대학교 학사 공지사항 게시판을 크롤링
 http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=335
 
-<img width="912" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/3576264d-2db1-492a-8d04-2440a79fc3d0">
+<p align="center">
+    <img width="912" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/3576264d-2db1-492a-8d04-2440a79fc3d0">
+</p>
 
 1. URL 설정
 ```swift
@@ -29,11 +32,16 @@ http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=335
 ```
 
 2. Parsing
-<img width="831" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/0997ad20-abd3-4a3f-b9e9-9b46962dd2eb">
-<img width="818" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/977aa4a7-1abf-4c3b-b234-b568b6fdbcd7">
-<img width="445" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/7b474f75-6d99-4b1c-a0fa-d92030098ccd">
-복사 결과 : body > div.board-table.list > table > tbody > tr:nth-child(1)
-tr 모두를 가져오면 되므로 select에서 tr까지 작성
+<p align="center">
+    <img width="831" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/0997ad20-abd3-4a3f-b9e9-9b46962dd2eb">
+    <img width="818" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/977aa4a7-1abf-4c3b-b234-b568b6fdbcd7">
+    <img width="445" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/7b474f75-6d99-4b1c-a0fa-d92030098ccd">
+</p>
+
+복사 결과 : `body > div.board-table.list > table > tbody > tr:nth-child(1)`
+
+tr 모두를 가져오면 되므로 select에서 `tr`까지 작성
+
 ```swift
     let contents : Document = try SwiftSoup.parse(html)
     let lines = try contents.select("body > div.board-table.list > table > tbody > tr")
