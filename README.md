@@ -36,7 +36,7 @@ Parsing 하고자하는 곳에 검사를 눌러 Selector 복사를 이용하면 
 <p align="center">
     <img width="831" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/0997ad20-abd3-4a3f-b9e9-9b46962dd2eb">
     <img width="818" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/977aa4a7-1abf-4c3b-b234-b568b6fdbcd7">
-    <img width="673" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/d65ec753-4a8f-47be-be02-d26e15ba1fa4">
+    <img width="460" alt="image" src="https://github.com/SungMinCho-Kor/Crawling/assets/128480641/7899e07a-904c-4ac7-b194-e89241c515ed">
 </p>
 
 복사 결과 : `body > div.board-table.list > table > tbody > tr:nth-child(1)`
